@@ -1,0 +1,12 @@
+{
+    "name": "Food Recipe",
+    "version": "1.0.0",
+    "description": "This is an extension to search for your favourite food recipe",
+    "manifest_version": 3,
+    "author": "Kalio",
+    "action": {
+        "default_icon": "icon.png",
+        "default_popup": "index.html",
+        "default_title": "Food recipe"
+    }
+}
