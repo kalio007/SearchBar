@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+body{
+  background-image: url("./background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  max-height: 100vh;
+  overflow-x: hidden;
+  margin-bottom: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+body::-webkit-scrollbar {
+  display: none; 
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.text-logo{
+  font-weight: 900
+  
+}
+nav{
+  width: 100%;
+  padding: 1rem 1rem;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  max-height: 80px;
+  color: #fff;
+  opacity: 100%;
+  background-color: #16181F;
+
+  border-bottom: 1px solid #ccc
+}
+nav .contianer{
+ display:flex;
+ align-items: center;
+ justify-content: space-between;
+}
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+ 
+  
+
+  input {
+    font-size: .6rem;
+    width: 40px;
+    flex: 1;
+    height: 30px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 0.9rem;
+    color: #333;
+  }
+  ::placeholder{
+    color:#555;
+  }
+  .search-label{
+      display:none
+   }
+  .button{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+   }
+   
+form {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 100px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+input:hover {
+    border-color: #333; /* Darker border color on hover */
+}
+input::placeholder{
+    font-family: 'Courier New', Courier, monospace;
+}
+label{
+    font-weight: 600;
+}
+button {
+    background-color: #A88FAC;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.nav-itmes{
+    display: flex;
+    flex-direction: row;
+    gap: 0.3rem;
+    vertical-align: baseline;
+    color: #fff;
+  }
+  a{
+    color: #fff;
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+.form-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.info{
+    color: #fff
+}
+  /* @media screen and (max-width: 768px) {
+    nav a{
+      font-size: 10px;
+    }
+  } */
